@@ -38,7 +38,7 @@
         yAxis: {},
         series: [{
             name: '成绩',
-            type: 'bar',
+            type: 'line',
             data: []
         }]
     });

@@ -5,7 +5,8 @@
 <body>
 <h2>Hello World!</h2>
 <hr>
+<a href="line.jsp">折线图</a>
+<a href="bar.jsp">柱状图</a>
 <a href="PieCharts.jsp">饼状图</a>
-<a href="Hello.jsp">柱状图</a>
 </body>
 </html>

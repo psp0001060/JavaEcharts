@@ -21,14 +21,13 @@
         title: {
             text: '学生成绩',
             subtext: '成绩比',
-            x: 'center'
         },
         tooltip: {
             trigger: 'item',
             formatter: "{a} <br/>{b} : {c} ({d}%)"
         },
         legend: {
-            orient: 'vertical',
+            orient: 'horizontal',
             x: 'left',
             data: []
         },
@@ -88,25 +87,13 @@
                 legend: {
                     orient: 'vertical',
                     x: 'left',
-                    data: []
+                    data: result
                 },
                 toolbox: {
                     show: true,
                     feature: {
                         mark: {show: true},
                         dataView: {show: true, readOnly: false},
-                        magicType: {
-                            show: true,
-                            type: ['pie', 'funnel'],
-                            option: {
-                                funnel: {
-                                    x: '25%',
-                                    width: '50%',
-                                    funnelAlign: 'left',
-                                    max: 1548
-                                }
-                            }
-                        },
                         restore: {show: true},
                         saveAsImage: {show: true}
                     }
@@ -117,7 +104,7 @@
                         name: '成绩',
                         type: 'pie',
                         radius: '55%',
-                        center: ['50%', '60%'],
+                        center: ['50%', '50%'],
                         data: result
                     }
                 ]

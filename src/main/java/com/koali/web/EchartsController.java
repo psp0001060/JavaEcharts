@@ -59,7 +59,7 @@ public class EchartsController {
 
     @RequestMapping(value = "/myeCharts")
     public String myeCharts() {
-        return "Hello";
+        return "bar";
     }
 
     @RequestMapping(value = "/getPieCharts")
